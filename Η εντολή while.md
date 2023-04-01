@@ -20,3 +20,6 @@ while (exit_from_loop = false) {
 read_bytes(file1);
 // άλλη ρουτίνα που γράφει δεδομένα σε ένα άλλο αρχείο
 write_bytes(file2);
+if (file_empty(file1) == true)
+exit_from_loop = true;
+}
