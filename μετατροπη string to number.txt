@@ -1,0 +1,20 @@
+η μετατροπή του αλφαριθμητικού string σε αριθμό γίνεται με 2 τρόπους
+
+α) valueOF(αλφαριθμητικο)
+
+β) 
+
+intValue()    μετατροπή σε    int
+longValue()                   long
+floatValue()                  float
+doubleValue()                 double
+
+
+
+πχ
+
+int i= Integer.valueOF("25").intVlaue;
+
+για να μετατρέψουμε το αλφαρισθμητικό 25 σε τύπου Long
+
+long i = Integer.valueOF("25").longValue;

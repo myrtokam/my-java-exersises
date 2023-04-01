@@ -1,0 +1,107 @@
+import java.util.Scanner;
+class Martios
+{
+public static void main (String [] args)
+{
+Scanner reader = new Scanner(System.in);
+System.out.println("enter a positive integer");
+int k = reader.nextInt();
+System.out.println("2^1=2");
+System.out.println("2^2=4");
+System.out.println("2^3=8");
+System.out.println("2^4=16");
+}
+}
+
+--------------------------------------------------------------
+import java.util.Scanner;
+
+class Martios
+{
+public static void main (String [] args)
+{
+Scanner reader = new Scanner(System.in);
+System.out.println("enter a positive integer");
+int k = reader.nextInt();
+
+int power =2;
+for (int i; i<=k; i++)
+{
+	System.out.println("2^" + i +" = powe);
+	power = power *2;
+}
+System.out.println("2^1=2");
+System.out.println("2^2=4");
+System.out.println("2^3=8");
+System.out.println("2^4=16");
+}
+}
+
+-----------------------------------------------------------------------------
+import java.util.Scanner;
+
+class Martios
+{
+public static void main (String [] args)
+{
+Scanner reader = new Scanner(System.in);
+System.out.println("enter a positive integer");
+int k = reader.nextInt();
+
+int power =2;
+for (int i; i<=k; i++)
+{
+	System.out.println("2^" + i +" = powe);
+	power = power *2;
+}
+}
+}
+-------------------------------------------------------
+import java.util.Scanner;
+
+class Martios
+{
+public static void main (String [] args)
+{
+Scanner reader = new Scanner(System.in);
+System.out.println("enter a positive integer");
+int k = reader.nextInt();
+
+int power =2;
+for (int i; i<=k; i++)
+{
+	System.out.println("2^" + i +" = powe);
+	power =*2;
+}
+System.out.println("2^1=2");
+System.out.println("2^2=4");
+System.out.println("2^3=8");
+System.out.println("2^4=16");
+}
+}
+
+--------------------------------------------------------
+
+import java.util.Scanner;
+
+
+class askisi
+{
+public static void main (String [] args)
+{
+Scanner reader = new Scanner(System.in);
+System.out.println("enter a positive integer");
+int k = reader.nextInt();
+
+int power =2;
+for (int i = 1; i<=k; i++)
+{
+	//System.out.println("2^" + i +" = power);
+	System.out.printf("2^%d = %d\n", i, power );
+	power = power *2;
+}
+
+}
+}
+------------------------------------------------------------------------
+---------------------------

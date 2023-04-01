@@ -1,0 +1,23 @@
+class Compare
+{
+public static void(int x, int y, int 5, int 6 )
+{
+if (x>y)
+System.out.println(x+ "is max");
+else
+System.out.println(y+ "is max");
+if (x=y)
+System.out.println(x+, y+ "is even");
+}
+public static void whatarexandy
+{
+x=5;
+y=6;
+}
+public static void main(strin[] args)
+{
+int x = Integer.parseInt(args[0]);
+int y = Integer.parseInt(args[1]);
+compare( x, y);
+}
+}

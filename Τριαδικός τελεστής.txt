@@ -1,0 +1,15 @@
+Τριαδικός τελεστής
+
+max = a > b ? a:b;
+
+-----------------------------------------------------------------
+package ERGASIA;
+
+public class ergasia {
+		public static void main(String[] args){
+		int y=10;
+		int abc=(y>10) ? y: -y;
+		// υπονοειται οτι αν y>0 τοτε abc = y αλλιώς abc= -y
+	System.out.printf( "ab = %d", abc);
+						}
+	}

@@ -1,0 +1,14 @@
+package ERGASIA;
+import java.util.Scanner;
+public class ergasia {
+
+		public static void main(String[] args) {
+		int a, b;
+		Scanner in = new Scanner(System.in);
+		System.out.println("παρακαλώ δωστε δύο τιμές ακεραίων:");
+        a=in.nextInt();
+        b=in.nextInt();
+        in.close();
+	}
+	
+}

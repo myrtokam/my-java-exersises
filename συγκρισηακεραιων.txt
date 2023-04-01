@@ -1,0 +1,18 @@
+class Comparek
+{
+public static void Comparek(int x, int y)
+ {
+if (x>y)
+System.out.println (x+ "is max");
+else
+System.out.println (y+ "is max");
+if (x == y)
+System.out.println (x + "is even" + y);
+}
+public static void whatarexandy()
+{
+int x = 5;
+int y = 6;
+}
+}
+

@@ -1,0 +1,31 @@
+class askisi{
+class askisi{
+	public static void main (String [] args)
+	{
+	int x,y,z;
+	x=-45;
+	y= 115;
+	z=0;
+	if(x<y && x<z)
+	{
+		if(y<z)
+			System.out.println("the order is "+x+", "+y+","+z+"," + z);
+		else
+			System.out.println("the order is "+y+", "+z+","+z+"," + y);
+	}
+	if(x>z && x>y)
+	{
+	if(y>z)
+	System.out.println("the order is "+y+","+z+"," +x);
+	else
+	System.out.println("the order is "+z+","+y+"," +x);
+	}
+	
+	if(x<y && x>z)
+		System.out.println("the order is "+z+","+x+"," +z);
+	if (x>y && x<z)
+		System.out.println("the order is  "+y+","+x+"," +z);
+	}
+}
+
+

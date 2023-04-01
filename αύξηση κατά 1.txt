@@ -1,0 +1,13 @@
+class askisi{
+	public static void main (String [] args)
+	{
+		byte iVar =1;
+		for (int i=0; i<8; i++)
+		{
+			iVar*=2;
+			System.out.println(iVar);
+		}
+	
+	}
+	
+}

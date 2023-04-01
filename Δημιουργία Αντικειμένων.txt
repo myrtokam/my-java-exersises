@@ -1,0 +1,20 @@
+
+Δημιουργία Αντικειμένων
+
+Point origin = new Point(23, 94);
+
+Rectangle rect1=new Rectangle(origin,100,200);
+
+Rectangle rect2 = new Rectangle(50,100);
+
+
+Κάθε δήλωση περιλαμβάνει:
+
+• Δήλωση μεταβλητής (declaration)
+• Δημιουργία Στιγμιοτύπου (instantiation) με τον τελεστή new
+• Αρχικοποίηση με κλήση του Constructor (Initialization), 
+
+
+για  παράδειγμα 
+
+Point(23, 94)     καλεί τον constructor της κλάσης point με παραμέτρους 23, 94

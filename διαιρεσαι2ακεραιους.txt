@@ -1,0 +1,19 @@
+class isevenp
+{
+public static void whatare(int x, int y)
+{
+if (x % 2 ==0)
+System.out.println(x + "is even");
+else
+System.out.println(x + "is odd");
+if ( y% 2 ==0)
+System.out.println(x + "is even");
+else
+System.out.println(x + "is odd");
+}
+public static void whatare3and4()
+{
+whatIs(3);
+whatIs(4);
+}
+}
