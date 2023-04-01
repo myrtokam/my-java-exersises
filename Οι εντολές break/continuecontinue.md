@@ -27,3 +27,12 @@ System.out.println(i);
 for (int i = 1; i < 20; i += 3) {
 // να μην τυπωθούν οι άρτιοι(ζυγοί) αριθμοί
 if ( i % 2 = 0)
+continue;
+System.out.println(i);
+}
+
+Το αποτέλεσμα θα είναι:
+1
+7
+13
+19
