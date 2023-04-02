@@ -1,0 +1,5 @@
+δήλωση δισδιαστατου πίνακα
+
+int[][] myarray = new int[2][];
+myarray[0]=new int [3];
+myarray[1]= new int[2];
