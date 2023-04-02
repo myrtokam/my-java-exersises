@@ -1,0 +1,15 @@
+class askisi pinaka
+{
+public static void main(String[] args)
+{
+int arrat = {3,6,3,7,4,9,6,2,1,8};
+int x=12;
+for(int =0; i<10; i++)
+if(array[i]==x)
+{
+System.out.println("brethike stin thesi" + i);
+break;
+}
+System.out.println("den brethike");
+}
+}
