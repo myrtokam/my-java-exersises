@@ -1,0 +1,13 @@
+Scanner input = new Scanner(System.in);
+		
+		int x = input.nextInt();
+		int y = input.nextInt();
+		
+		double z = (  (double)  x) / y;
+		
+		System.out.println(z);
+		
+		
+		
+	}
+}
