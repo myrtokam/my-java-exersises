@@ -1,0 +1,19 @@
+package paradeigmaSXOLI;
+import javax.swing.*;
+
+public class mathima {
+	
+	
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("LESSON");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);;
+		JPanel panel = new JPanel();
+		panel.add(new JLabel("lesson_id"));
+		panel.add(new JCheckBox("lesson_theme"));
+		panel.add(new JCheckBox("day for the lesson"));
+		panel.add(new JCheckBox("lesson studying"));
+		frame.add(panel);
+		frame.setSize(230, 100);
+		frame.setVisible(true);
+}
+}
