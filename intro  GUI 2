@@ -1,0 +1,31 @@
+package paradeigmaSXOLI;
+import javax.swing.*;
+
+public class mathima {
+	
+	
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("people");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);;
+		JPanel panel = new JPanel();
+		panel.add(new JLabel("people_id"));
+		panel.add(new JCheckBox("people"));
+		panel.add(new JCheckBox("people Lname"));
+		panel.add(new JCheckBox("people name"));
+		frame.add(panel);
+		frame.setSize(230, 230);
+		frame.setVisible(true);
+	}
+	public class MyFrame extends JFrame {
+		public MyFrame(String title) {
+		super(title);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		JPanel panel = new JPanel();
+		panel.add(new JLabel("people"));
+		panel.add(new JCheckBox("people Lname"));
+		panel.add(new JCheckBox("people name"));
+		this.add(panel);
+		this.setSize(230, 100);
+		}
+		}
+}
