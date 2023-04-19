@@ -1,0 +1,18 @@
+public class Radius {
+	
+		static double PI=3.14;// ο αριθμός π
+		static int count = 0; 
+		double radius; // η ακτίνα του κύκλου
+		double x; // η σκτίνα του κέντρου
+		double y; // η τεταγμένη του κέντρου 
+		
+
+static int countCircle()// μετρά τους κύκλους/αντικέιμενα που δημιουργούμε
+{
+	return count;
+}
+double area()//υπολογίζει το εμβαδόν του κάθε κύκλου
+{
+	return PI*radius*radius;
+}
+}
