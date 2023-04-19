@@ -1,0 +1,15 @@
+public class klaseis {
+
+	public static void main(String[] args)
+	{
+		klaseis antikeimeno;
+		antikeimeno = new klaseis();
+		System.out.println();
+	}
+	
+	public static void askisi (String[] args)
+	{
+		klaseis antikeimeno2;
+		antikeimeno2= new klaseis();
+		System.out.println();
+	}
