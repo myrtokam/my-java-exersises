@@ -1,0 +1,22 @@
+
+	package paradeigmaSXOLI;
+	
+	import java.util.Scanner;
+	
+	public class askisiIf 
+	{
+		
+	
+	 public static void main(String[] args)
+	 {
+		 Scanner athroisma = new Scanner(System.in);
+int x;
+int y;
+double z;
+		 System.out.println();
+		 x=athroisma.nextInt();
+		 y=athroisma.nextInt();
+		
+		 System.out.println(z=x+y);
+	 }
+	}
