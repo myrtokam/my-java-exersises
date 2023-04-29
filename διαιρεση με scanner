@@ -1,0 +1,18 @@
+	package paradeigmaSXOLI;
+	import java.util.Scanner;
+	
+	public class askisiIf 
+	{
+		public static void main(String[] args)
+		{
+			try (Scanner diairesi = new Scanner(System.in)) {
+				double x;
+				double y;
+				x= diairesi.nextDouble();
+				y=diairesi.nextDouble();
+				System.out.println(x/y);
+			}
+			}
+		}
+	 
+	
