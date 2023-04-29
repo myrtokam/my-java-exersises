@@ -1,0 +1,24 @@
+
+	package paradeigmaSXOLI;
+	import java.util.Scanner;
+	public class askisiIf {
+	 public static void main(String[] args)
+	 {
+		 try (Scanner Keyboard = new Scanner(System.in)) {
+			int x1;
+			 double x2;
+			 System.out.println();//κενή γραμμή
+			 System.out.println("x1= ");
+			 x1 = Keyboard.nextInt();// εισαγωγή του πρώτου αριθμού
+			 System.out.println();// κενή γραμμή
+			 System.out.println("x2= ");
+			 x2= Keyboard.nextDouble();// εισαγωγή του 2ου αριθμού
+			 System.out.println();
+			 x1=x1*x1;
+			 x2=Math.pow(x2,2);
+			 System.out.println("x1*x1" +x1);
+			 System.out.println("x2*x2"+x2);
+		}
+		   
+	 }  
+	}
