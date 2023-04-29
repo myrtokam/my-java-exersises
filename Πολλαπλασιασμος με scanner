@@ -1,0 +1,19 @@
+	package paradeigmaSXOLI;
+	import java.util.Scanner;
+	
+	public class askisiIf 
+	{
+		public static void main(String[] args)
+		{
+				Scanner pollaplasiasmos = new Scanner(System.in);
+				double x;
+				double y;
+				x=pollaplasiasmos.nextDouble();
+				y=pollaplasiasmos.nextDouble();
+				System.out.println(x/y);
+			}
+			}
+		
+	 
+	
+
