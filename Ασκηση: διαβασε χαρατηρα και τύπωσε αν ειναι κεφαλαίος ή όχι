@@ -1,0 +1,23 @@
+// Γράψε πρόγραμμα που ζητάει έναν χαρακτήρα και εκτυπώνει αν είναι αλφαβητικός κεφαλαίος, αλφαβητικός μικρός ή δεν είναι αλφαβητικός. Πχ: Give character: p Small alphabetic
+Πχ: Give character: * Not alphabetic
+
+
+package myrtui;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class paradeigma {
+	public static void main(String[] args) {
+		System.out.println("Δώστε έναν χαρακτήρα:");
+		Scanner input = new Scanner(System.in);
+		String x = input.next();
+
+		if (Character.isUpperCase(x.charAt(0))) {
+			System.out.println("Είναι κεφαλαίο γράμμα.");
+		} else if (Character.isLowerCase(x.charAt(0))) {
+			System.out.println("Δεν είναι κεφαλαίο γράμμα.");
+		} else {
+			System.out.println("Δεν είναι ένας έγκυρος χαρακτήρας.");
+		}
+	}
+}
