@@ -1,0 +1,19 @@
+package myrtui;
+import java.util.Scanner;
+
+public class pinakas1 {
+
+	public static void main(String[] args) {
+		
+		Scanner keyboard = new Scanner(System.in);
+		int myArray[][] = new int[5][5];
+		System.out.println("Dose stoixeio os: " + myArray.length + " oi grammes kai " + myArray[0].length + " oi stiles.");
+		
+		for (int row = 0; row < myArray.length; row++) {
+			for(int column = 0; column < myArray[row].length; column++) {
+				System.out.println("Dose stoixeio " + row + ", " + column + ":");
+				myArray[row][column] = (int)(Math.random()*100);		
+		}
+	}
+}
+}

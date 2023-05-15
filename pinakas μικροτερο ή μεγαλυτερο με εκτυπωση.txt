@@ -1,0 +1,25 @@
+package myrtui;
+import java.util.Scanner;
+public class pinakas1 {
+
+	public static void main(String[] args)
+	{
+		int sum = 0;
+	Scanner keyboard = new Scanner(System.in);
+	double myArray[]= new double[10];
+	System.out.println("dose stoixeia me arithmo :"+" "+ myArray.length + " "+ "gia ton pinaka");
+	double min = myArray[0];
+	double max = myArray[0];
+	for(int i= 0; i<myArray.length; i++)
+		
+	{
+	if (myArray[i]<min)
+		min=myArray[i];
+	if(myArray[i]>max)
+		max=myArray[i];
+	System.out.println("the min is:"+min);
+	System.out.println("the min is:"+max);
+	
+	}
+	}
+}
