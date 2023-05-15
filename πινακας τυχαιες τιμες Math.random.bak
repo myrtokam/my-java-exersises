@@ -1,0 +1,17 @@
+package myrtui;
+import java.util.Scanner;
+public class pinakas1 {
+
+	public static void main(String[] args)
+	{
+	Scanner keyboard = new Scanner(System.in);
+	double myArray[]= new double[10];
+	System.out.println("dose stoixeia me arithmo :"+" "+ myArray.length + " "+ "gia ton pinaka");
+	for(int i= 0; i<myArray.length; i++)
+		
+	{
+		myArray[i] = Math.random()*100;
+		System.out.println(myArray.length);
+	}
+	}
+}
