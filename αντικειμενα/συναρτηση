@@ -1,0 +1,102 @@
+package a1;
+public class Person {
+	//dhlwsh xarakthristikwn-metavlhtwn
+	int age;
+	String name = "Mixalis";
+	String last_name;
+	
+	// constructor einai h synarthsh poy kaleitai kata th dhmioyrgia enos antikeimenoy ayths ths klashs
+	// xrhsimopoioyme ton constructor gia na arxikopoihsoyme ta xarakthristika toy antikeimenoy
+	Person(String name, String last_name, int age){
+		//System.out.println("Person's constructor called " + n);
+		
+		this.name = name;
+		this.last_name = last_name;
+		this.age = age;
+	}
+	
+	
+	// symperifores-synarthseis
+	void greet(String name)
+	{
+		//System.out.println("my name is " + name + " " + last_name + " and i am " + age +" years old" );
+		System.out.printf("Hi my name is %s %s and I am %d years old\n", last_name, name, age);
+	}
+}
+//////////////////////////////////////////////////////////////////////////////////////
+
+package a2;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Person giannhs = new Person("Giannhs", 35);
+		Person maria = new Person("Maria", 20);
+		
+		
+		giannhs.greet();
+		maria.greet();
+		/*
+		if(giannhs.is_enilikas()) {
+			System.out.println("Soy epitrepw na mpeis");
+		} else {
+			System.out.println("Den mporeis na mpeis akoma!");
+		}
+		
+		int x = 3;
+		
+		//giannhs.say_kalhmera(x);
+		
+		
+		x = giannhs.foo(x);
+		
+		System.out.println(x);*/
+		
+	}
+
+}
+/////////////////////////////////////////////////////////
+
+package a1;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person myrtw = new Person("Myrtrquh OQLAURAEWBHw", "Kampa", 20); //
+		
+		
+		
+		Person mixalis = new Person("Mixalis", "Lappas", 20); // 
+		Person antonis = new Person("Antonis", "Antonakopoylos", 100);
+		Person Anna = new Person("Anna", "Annastasaki", 19);
+		Person Matina = new Person("Matina", "mantarinaki", 29);
+		
+		myrtw.name = "Myrtw";
+		
+		//String onomata[] = new String[5];
+		String onomata[] = {"Myrtw", "Mixalis", "Antonis", "Anna", "Matina"};
+		String last_name[]= { "Lappas","Lappas", "Antonakopoylos", "Annastasaki", "Mantarinaki"};
+		int age[]= {20,20,100,19,29};
+		// to idio gia ta epitheta
+		// to idio gia tis hlikies
+		
+		// meta thes na ftiakseis enan pinaka me 3 Person
+		Person anthrwpoi[] = new Person[4];
+		
+		anthrwpoi[0] = new Person(onomata[0], last_name[0], age[0]);
+		anthrwpoi[1] = mixalis;
+		anthrwpoi[2] = myrtw;
+		anthrwpoi[3] = Anna;
+		
+		
+	
+		
+		myrtw.greet("Alexis"); 
+		mixalis.greet("Giorgos"); 
+		antonis.greet("Antonela");
+		
+		
+	}
+
+}
