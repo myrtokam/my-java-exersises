@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+public class ListTutorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String onomata_pinakas[] = new String[5]; // etsi ftiaxnw pinaka me String
+		ArrayList<String> onomata_lista = new ArrayList<String>(); // etsi ftiaxnw lista me String
+	
+		onomata_pinakas[0] = "Myrtw"; // etsi vazw se enan pinaka (prepei na prosdiorisw thesh)
+		onomata_lista.add("Myrtw"); // etsi vazw se mia lista (den prosiorizw thesh, paei sto telos)
+		
+		System.out.println(onomata_pinakas[0]); // etsi pairnw apo enan pinaka
+		System.out.println(onomata_lista.get(0)); // etsi pairnw apo mia lista (kiedw prosdiorizw thesh)
+	
+		ArrayList<Question> questions = new ArrayList<>();
+		questions.add(new Question("Posa mhla krataw?", "0"));
+		
+		questions.get(0).apanthsh_xrhsth = "7";
+		
+	}
+
+}
